@@ -31,6 +31,8 @@ BuildRequires: cmake(Qt6QuickTest)
 BuildRequires: cmake(KF6Activities)
 BuildRequires: cmake(KF6XmlGui)
 BuildRequires: cmake(KF6Package)
+# Just to make sure the KDE 5 version isn't pulled in
+BuildRequires: plasma6-xdg-desktop-portal-kde
 Requires: %{libname} = %{EVRD}
 
 %description
