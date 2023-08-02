@@ -1,6 +1,6 @@
 %define libname %mklibname KF6KCMUtils
 %define devname %mklibname KF6KCMUtils -d
-%define git 20230726
+%define git 20230802
 
 Name: kf6-kcmutils
 Version: 5.240.0
