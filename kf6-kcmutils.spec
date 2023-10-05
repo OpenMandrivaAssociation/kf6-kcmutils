@@ -1,6 +1,6 @@
 %define libname %mklibname KF6KCMUtils
 %define devname %mklibname KF6KCMUtils -d
-%define git 20230927
+%define git 20231005
 
 Name: kf6-kcmutils
 Version: 5.240.0
@@ -82,7 +82,6 @@ Utilities for interacting with KCModules
 %{_includedir}/KF6/KCMUtilsCore
 %{_includedir}/KF6/KCMUtilsQuick
 %{_libdir}/cmake/KF6KCMUtils
-%{_qtdir}/mkspecs/modules/qt_KCMUtils.pri
 %{_qtdir}/doc/KF6KCMUtils.*
 
 %files -n %{libname}
