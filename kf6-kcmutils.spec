@@ -2,10 +2,10 @@
 
 %define libname %mklibname KF6KCMUtils
 %define devname %mklibname KF6KCMUtils -d
-%define git 20240217
+#define git 20240217
 
 Name: kf6-kcmutils
-Version: 5.250.0
+Version: 6.0.0
 Release: %{?git:0.%{git}.}1
 %if 0%{?git:1}
 Source0: https://invent.kde.org/frameworks/kcmutils/-/archive/master/kcmutils-master.tar.bz2#/kcmutils-%{git}.tar.bz2
