@@ -7,7 +7,7 @@
 
 Name: kf6-kcmutils
 Version: 6.5.0
-Release: %{?git:0.%{git}.}1
+Release: %{?git:0.%{git}.}2
 %if 0%{?git:1}
 Source0: https://invent.kde.org/frameworks/kcmutils/-/archive/master/kcmutils-master.tar.bz2#/kcmutils-%{git}.tar.bz2
 %else
@@ -48,6 +48,10 @@ BuildRequires: cmake(KF6ConfigWidgets)
 BuildRequires: cmake(KF6XmlGui)
 BuildRequires: cmake(KF6WidgetsAddons)
 Requires: %{libname} = %{EVRD}
+
+%patchlist
+# https://bugs.kde.org/show_bug.cgi?id=488965
+https://invent.kde.org/frameworks/kcmutils/-/commit/c80d4cb0063950e74ec00bbb8868572ead150126.patch
 
 %description
 Utilities for interacting with KCModules
