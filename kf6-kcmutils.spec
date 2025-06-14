@@ -6,7 +6,7 @@
 #define git 20240217
 
 Name: kf6-kcmutils
-Version: 6.14.0
+Version: 6.15.0
 Release: %{?git:0.%{git}.}1
 %if 0%{?git:1}
 Source0: https://invent.kde.org/frameworks/kcmutils/-/archive/master/kcmutils-master.tar.bz2#/kcmutils-%{git}.tar.bz2
@@ -95,7 +95,6 @@ Utilities for interacting with KCModules
 %{_includedir}/KF6/KCMUtilsCore
 %{_includedir}/KF6/KCMUtilsQuick
 %{_libdir}/cmake/KF6KCMUtils
-%{_qtdir}/doc/KF6KCMUtils.*
 
 %files -n %{libname}
 %{_libdir}/libKF6KCMUtils.so*
