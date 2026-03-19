@@ -47,6 +47,7 @@ BuildRequires: cmake(KF6I18n)
 BuildRequires: cmake(KF6ConfigWidgets)
 BuildRequires: cmake(KF6XmlGui)
 BuildRequires: cmake(KF6WidgetsAddons)
+BuildRequires: qml(org.kde.kirigami)
 Requires: %{libname} = %{EVRD}
 
 %description
